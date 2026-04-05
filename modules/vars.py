@@ -9,7 +9,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "8521628886:AAHlWvCUJBz_haLY9b7Y35SjG3YCjs0
 
 OWNER = int(environ.get("OWNER", "7744686564"))
 CREDIT = environ.get("CREDIT", "♻️GABBAR♻️")
-cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
+cookies_file_path = os.getenv("cookies_fileAPI_ID = int(environ.get(\"API_ID\", \"26184715\"))_path", "youtube_cookies.txt")
 
 TOTAL_USER = os.environ.get('TOTAL_USERS', '5680454765').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
